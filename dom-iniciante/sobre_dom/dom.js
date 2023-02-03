@@ -24,6 +24,27 @@ h1Selecionado.addEventListener('click', callback1);
 
 
 
+//exercicio
+// retorn a url da página atual utilizando o metódo windows
+const localiza= window.location;
+console.log(localiza);
+
+// selecione o primeiro elemento da página que contém o elemento ativo 
+const elementoAtivo = document.querySelectorAll('.ativo');
+console.log(elementoAtivo);
+
+// retorne a linguagem do navegador 
+const navegar = window.navigator.language;
+console.log(navegar);
+
+if(navegar == 'pt-br'){
+  console.log('seu navegador está em português')
+} else{
+  console.log('seu navegador não está em português')
+}
+
+//retorne a largua da  janela
+console.log(window.innerWidth);
 
 
 
