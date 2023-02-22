@@ -1,0 +1,44 @@
+.titulo{
+  font-weight: 300;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+  margin-top: 130px;
+  letter-spacing: .1rem;
+  font-size: 70px;
+  font-weight: 300;
+}
+
+.h2{
+  text-align: center;
+  padding: 20px;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.color{
+  font-family: 'Amatic SC', cursive;
+}
+
+#btn{
+  background-color: #CDA1FF;
+  margin-left: 550px;
+  margin-top: 6rem;
+  height: 70px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1x 10px black;
+  font-size: 26px;
+  letter-spacing: .1rem;
+  font-family: 'Open Sans', sans-serif
+}
+
+#btn:hover{
+  color: wheat;
+  background-color: #66507F;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
+
