@@ -11,8 +11,7 @@
    <li>Pela maledicência dos divinos, se houver algum conceito equivocado, saiba que foi meu gato quem escreveu! 😼</l1>
  </ul>
  
- <br>
- <br>
+
  <br>
  
  ## Index
@@ -23,8 +22,6 @@
     - [Operador unário](#numerooperador2)
  - [Foreach e arrow function](#foreach)
  
- <br>
- <br>
  <br>
  <br>
  <br>
@@ -65,7 +62,8 @@
  
  <br>
  
-![numero_operador_2](https://github.com/giovaniavila/MyJs/assets/112128418/5b4e8cbc-82cc-4ca9-b744-9f6f64eb2463) <a name = "numerooperador2"></a>
+> #### Operador unário <a name = "numerooperador2"></a>
+![numero_operador_2](https://github.com/giovaniavila/MyJs/assets/112128418/5b4e8cbc-82cc-4ca9-b744-9f6f64eb2463)
 <br>
 <br>
 <br>
