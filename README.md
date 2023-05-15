@@ -18,9 +18,9 @@
  ## Index
  #### Javascript básico
  - [Variáveis](#variaveis)
- - [Tipos de dados](#tipoDados)
- - [Números e operadores](#numeroOperador)
-    - [Operador unário](#numeroOperador2)
+ - [Tipos de dados](#tipodados)
+ - [Números e operadores](#numerooperador)
+    - [Operador unário](#numerooperador2)
  - [Foreach e arrow function](#foreach)
  
  <br>
@@ -44,7 +44,7 @@
 
 
 
- ### Tipos de dados <a name = "tipoDados"></a>
+ ### Tipos de dados <a name = "tipodados"></a>
  <br>
  
  ![tipoDados](https://github.com/giovaniavila/MyJs/assets/112128418/142d9584-1300-4074-95db-8ec4af23e29c)
@@ -58,14 +58,14 @@
  
  
 
-### Números e operadores <a name = "numeroOperador"></a>
+### Números e operadores <a name = "numerooperador"></a>
 <Br>
  
 ![numero_operador_1](https://github.com/giovaniavila/MyJs/assets/112128418/d15db166-872f-4326-8872-ca1bd8b88b38)
  
  <br>
  
-![numero_operador_2](https://github.com/giovaniavila/MyJs/assets/112128418/5b4e8cbc-82cc-4ca9-b744-9f6f64eb2463) <a name = "numeroOperador2"></a>
+![numero_operador_2](https://github.com/giovaniavila/MyJs/assets/112128418/5b4e8cbc-82cc-4ca9-b744-9f6f64eb2463) <a name = "numerooperador2"></a>
 <br>
 <br>
 <br>
