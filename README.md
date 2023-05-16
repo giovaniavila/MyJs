@@ -6,9 +6,8 @@
  <h4> alguns pontos sobre esse "humilder" repositório </h4>
  <ul>
    <li>Deixo aqui somente aquilo que considerei necessário durante meus estudos</l1>
-   <li>A forma disponibilizada das anotações será através de imagens, criadas por mim mesmo utilizando o figma</l1>
+   <li>A forma disponibilizada das anotações será através de screenshots dos meus códigos</l1>
    <li>feel free to take a look</l1>
-   <li>Pela maledicência dos divinos, se houver algum conceito equivocado, saiba que foi meu gato quem escreveu! 😼</l1>
  </ul>
  
 
@@ -20,6 +19,8 @@
  - [Tipos de dados](#tipodados)
  - [Números e operadores](#numerooperador)
     - [Operador unário](#numerooperador2)
+    - [Boolean e condicionais](#numerooperador3)
+ - [Arrays e loops](#array)
  - [Foreach e arrow function](#foreach)
  
  <br>
@@ -64,6 +65,13 @@
  
 > #### Operador unário <a name = "numerooperador2"></a>
 ![numero_operador_2](https://github.com/giovaniavila/MyJs/assets/112128418/5b4e8cbc-82cc-4ca9-b744-9f6f64eb2463)
+
+ <br>
+ 
+ > #### Boolean e Condicionais <a name = "numerooperador3"></a>
+![numero_operador_3](https://github.com/giovaniavila/MyJs/assets/112128418/927ce666-9dd1-4659-b21c-0bb6598b8e3f)
+
+ 
 <br>
 <br>
 <br>
@@ -71,7 +79,16 @@
 <br>
  
  
+ ### Arrays e loops <a name = "array"></a>
+ <br>
  
+ ![arrays_e_loops](https://github.com/giovaniavila/MyJs/assets/112128418/d2dcaa02-daf6-4081-95df-c6cd4794fa03)
+
+<br>
+<br>
+<br>
+<br>
+<br>
  
  ### Foreach e arrow function <a name = "foreach"></a>
  <br>
