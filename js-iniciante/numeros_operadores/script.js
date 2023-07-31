@@ -1,10 +1,4 @@
-// Qual o resultado da seguinte expressão?
-var total = 10 + 5 * 2 / 2 + 20;
-console.log(total)
 
-// Crie duas expressões que retornem NaN
-var idade = 'isso é uma string'/2;
-console.log(idade)
 
 // Somar a string '200' com o número 50, retorna o valor 20050
 var s = '200' + 50; 

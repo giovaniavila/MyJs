@@ -11,8 +11,6 @@ console.log()// irá dar erro por estar fora do escopo da variável
 
 
 // o escopo serve, sobretudo, para evitar conflito entre nomes de variáveis
-// criar variavel global é um erro
-
 
 var perfume = 'Chanel';
 function mostraPerfume(){
@@ -22,8 +20,6 @@ function mostraPerfume(){
 
 
 // outro tipo de escopo
-// o tipo de escopo em bloco permite que seja possível usar uma varíavel criada dentro da função no lado 
-// de fora
 if(true){
   let carro = 'fusca'; // o let faz com que a variável não vaze do escopo
   console.log(carro)
@@ -34,12 +30,12 @@ console.log();
 // chaves também criam blocos
 {
   var idade =  '19';
-  let carro = 'hb20';
-  const ano = 1980;
+  let carro = 'fusca';
+  const ano = 1975;
 }
 console.log(idade);
 console.log(); //let não vaza
-console.log(); // constr não vaza
+console.log(); // const não vaza
 
 
 // let em loops não vaza a variável

@@ -1,17 +1,15 @@
 // objeto é um conjunto de variaveis e funções
-// as variaveis sao chamadas de propriedades e as funções, os métodos
+// as variaveis sao chamadas de propriedades e as funções são os métodos
 
 var pessoa = {
   nome: 'giovani',
   idade: 20,
-  profissao: 'designer',
+  profissao: 'Analista de sistemas',
   possuiFacul: true,
 }
 
 pessoa.nome; // 'giovani'
 pessoa.possuiFacul;
-
-
 
 
 //método = é uma propriedade que pode ser uma função

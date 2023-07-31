@@ -25,7 +25,7 @@ while (i < 10){
 
 var games = ['switch', 'ps4', 'ps5']
 for(var item = 0; item < 3; item++){
-  console.log(item)
+  console.log(games[item])
 }
 
 
@@ -34,6 +34,7 @@ var frutas = ['maça', 'pera', 'uva']
 frutas.forEach(function(i, index){
   console.log(i, index)
 })
+
 
 
 
