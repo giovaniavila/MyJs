@@ -1,0 +1,56 @@
+Principais métodos math.
+
+
+
+1 - Math.random()
+    Retorna um número pseudoaleatório entre 0 (inclusive) e 1 (exclusivo).
+    javascript: 
+            const randomNum = Math.random();
+            console.log(randomNum);
+
+2 - Math.floor() e Math.ceil(): Math.floor() 
+    arredonda para o inteiro menor ou igual, enquanto Math.ceil() arredonda para o inteiro maior ou igual.
+            const num = 5.75;
+            const floorNum = Math.floor(num);
+            const ceilNum = Math.ceil(num);
+            console.log(floorNum); // Saída: 5
+            console.log(ceilNum);  // Saída: 6
+
+
+3 - Math.round()
+    Arredonda para o inteiro mais próximo.
+            const roundedNum = Math.round(5.49);
+            console.log(roundedNum); // Saída: 5
+
+
+4 - Math.max() e Math.min(): 
+    Retorna o maior e o menor valor de um conjunto de números, respectivamente.
+            const maxNum = Math.max(10, 5, 8, 15);
+            const minNum = Math.min(10, 5, 8, 15);
+            console.log(maxNum); // Saída: 15
+            console.log(minNum); // Saída: 5
+
+
+5 - Math.pow(): 
+    Calcula a potência de um número.
+            const powerResult = Math.pow(2, 3);
+            console.log(powerResult); // Saída: 8
+
+
+6 - Math.sqrt(): 
+    Calcula a raiz quadrada de um número.
+            const squareRoot = Math.sqrt(25);
+            console.log(squareRoot); // Saída: 5
+
+
+7 - Math.toLocalString();
+    formata o número de acordo com a língua
+        const preco = 59.49;
+        preco.toLocaleString('en-US', {style: 'currency', currency: 'USD'}); // $59.49
+        preco.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}); // R$ 59,49
+
+
+8 - Math.toFixed();
+    formata o número com o número de casas decimais desejadas;
+        const carro = 1000.455;
+        carro.toFixed(2) // 1000.46
