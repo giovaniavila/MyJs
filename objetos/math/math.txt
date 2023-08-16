@@ -1,7 +1,5 @@
 Principais métodos math.
 
-
-
 1 - Math.random()
     Retorna um número pseudoaleatório entre 0 (inclusive) e 1 (exclusivo).
     javascript: 
