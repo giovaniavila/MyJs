@@ -1,0 +1,51 @@
+Métodos de Array
+
+1 - Array.from()
+    transforma algo que parece com um array em uma array, nodelist ou object
+        const selecionaLi = document.querySelectorAll('li');
+        const arrayLi = Array.from(selecionaLi);
+
+
+2 - isArray()
+    verifica se algo é uma array;
+        console.log(selecionaLi.isArray()) -> return = false
+        console.log(arrayLi.isArray()) -> return = true
+
+
+3 - Array.sort();
+    String fica em ordem alfabética e number por ordem crescente de acordo com o primeiro dígito
+    const instrumentos = ['guitarra', 'violao', 'violina', 'flauta']
+    console.log(instrumentos.sort())
+
+    const numeros = [23,54,6,12,35,89]
+    console.log(numeros.sort()) 
+
+
+4 - Array.push()
+    Adiciona itens na array;
+    const carros = ['Honda', 'hb20', 'ferrari'];
+    carros.push('camaro')
+
+
+5 - Array.shift() e Array.pop();
+    Shift = retorna o primeiro elemento
+    Pop = retorna o último elemento
+
+    const livros = ['a', 'b', 'c'].shift();
+    console.log(livros)
+
+    const materias = ['matematica', 'literatura', 'quimica', 'geografia'].pop();
+    console.log(materias)
+
+
+6 - Array.reverse()
+    Retorna a array em ordem inversa
+
+
+7 - Array.splice()
+    O primeiro argumento é a posição que você vai modificar a array
+    O segundo argumento é quantos itens você irá remover da array
+    O terceiro é o que você quer adicionar na array
+        const carros = ['Honda', 'hb20', 'ferrari'];
+        carros.splice(1,1, 'camaro')
+            retorna = ['Honda', 'camaro', 'ferrari']
