@@ -25,7 +25,6 @@ console.log(Array.isArray(arrayLi))
 
 //métodos modificadores
 // Array.sort();
-
 const instrumentos = ['guitarra', 'violao', 'violina', 'flauta']
 console.log(instrumentos.sort())
 
@@ -51,3 +50,31 @@ console.log(materias)
 const arrayCarro = ['Honda', 'hb20', 'ferrari'];
 arrayCarro.splice(1,1, 'camaro')
 console.log(arrayCarro)
+
+//fill
+const arrayTeste = ['item 1', 'item 2', 'item 3', 'item 4', 'item 5'].fill('banana', 0, 2)
+console.log(arrayTeste)
+
+
+
+//métodos de acesso
+// não modificam a array original
+//includes / lastIndexOf / IndexOf
+const arrayx = ['html', 'css', 'javacript', 'golang']
+console.log(arrayx.includes('html'))
+
+//join
+const linguagens = ['html', 'css', 'javacript', 'golang']
+console.log(linguagens.join(' '))
+
+//split
+let htmlStrings  = '<h2> titulo principal </h2>';
+htmlStrings = htmlStrings.split('h2')
+htmlStrings = htmlStrings.join('h1')
+console.log(htmlStrings)
+
+//slice
+const linguagensProgramacao = ['html', 'css', 'javacript', 'golang'];
+linguagensProgramacao.slice(1)
+const novaLinguagem = linguagensProgramacao.slice()
+console.log(novaLinguagem)

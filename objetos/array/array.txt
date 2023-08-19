@@ -1,5 +1,10 @@
 Métodos de Array
 
+
+
+
+---------- Métodos modificadores ----------
+
 1 - Array.from()
     transforma algo que parece com um array em uma array, nodelist ou object
         const selecionaLi = document.querySelectorAll('li');
@@ -49,3 +54,39 @@ Métodos de Array
         const carros = ['Honda', 'hb20', 'ferrari'];
         carros.splice(1,1, 'camaro')
             retorna = ['Honda', 'camaro', 'ferrari']
+
+8 - Array.fill()
+    Preenche a array de acordo com o valor passado, substituindo o index
+        const arrayTeste = ['item 1', 'item 2', 'item 3', 'item 4', 'item 5'].fill('banana', 0, 2)
+        console.log(arrayTeste)
+        retorna = ['banana', 'banana', 'item 3', 'item 4', 'item 5']
+
+
+
+
+---------- Métodos de acesso ----------
+
+9 - Array.includes() / indexOf / lastIndexOf
+    Includes verifica se há o valor passado, indexOf retorna a posição do valor passado e indexOf verifica o último item da array
+        const arrayx = ['html', 'css', 'javacript', 'golang']
+        console.log(arrayx.includes('html'))
+        retorna = truew
+
+10 - Array.join()
+    Junta os itens da arrary de acordo com o valor passado
+        const linguagens = ['html', 'css', 'javacript', 'golang']
+        console.log(linguagens.join(' '))
+        retorna = ['html css javacript golang']
+
+11 - Array.split()
+     Quebra a array no valor passado
+        let htmlStrings  = '<h2> titulo principal </h2>';
+        htmlStrings = htmlStrings.split('h2')
+        htmlStrings = htmlStrings.join('h1')
+        retorna = '<h1> titulo principal </h1>'
+
+12 - Array.slice()
+    Corta a array a partir de um index passado
+    const linguagensProgramacao = ['html', 'css', 'javacript', 'golang'];
+    linguagensProgramacao.slice(1)
+    retorna = ['css', 'javacript', 'golang']
